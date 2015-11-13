@@ -1,0 +1,10 @@
+LIBRARY	"imp_ora"
+EXPORTS
+	_InitOraConnect				@1
+	_CloseOraConnect			@2
+	_GetDbSessionFromPool		@3
+	_RemoveDbSessionFromPool	@4
+	_BeginTransaction			@5
+	_CommitTransaction			@6
+	_Imp_Trn					@7
+	_Imp_Cval					@8
